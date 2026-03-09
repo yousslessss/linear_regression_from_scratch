@@ -83,7 +83,7 @@ To use and test the model, you can import and train it as such:
 ```python
 from linear_regression import LinearRegression
 
-model = LinearRegression(learning_rate=0.01, n_iters=1000)
+model = LinearRegression(learning_rate=0.01, n_epochs=1000)
 
 model.fit(X_train, y_train)
 
